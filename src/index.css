@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.bar:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.toggler {
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 30px;
+  width: 64px;
+}
+.toggler__ball {
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  height: 27px;
+  width: 27px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+.toggler__ball_clicked {
+  transform: translateX(30px);
+}
+
+.toggler__ball span {
+  font-size: 15px;
+  font-weight: 600;
+}
