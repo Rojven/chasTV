@@ -40,11 +40,11 @@ export const channels = [
 ];
 
 export const radioStations = [
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_radio-rossii.svg', title: 'Радио России', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_mayak.svg', title: 'Радио Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_vesti.svg', title: 'Радио Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_kultura.svg', title: 'Радио Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_yunost.svg', title: 'Радио Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost' },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_radio-rossii.svg', title: 'Россия', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam', descr: { one: 'Новости', two: 'Россия', three: 'Русский' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_mayak.svg', title: 'Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm', descr: { one: 'Новости, Развлечения', two: 'Россия', three: 'Русский' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_vesti.svg', title: 'Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm', descr: { one: 'Новости', two: 'Россия', three: 'Русский' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_kultura.svg', title: 'Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm', descr: { one: 'Развлечения, Образование', two: 'Россия', three: 'Русский' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_yunost.svg', title: 'Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost', descr: { one: 'Развлечения', two: 'Россия', three: 'Русский' } },
 /*   { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/avtoradio.png', title: 'Авторадио', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
   { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/business2.png', title: 'Business FM', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
   { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/vanya.png', title: 'Радио Ваня', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },

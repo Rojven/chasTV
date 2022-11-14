@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { playPause, setActiveRadioStation } from '../../redux/features/playerSlice';
+import { playPause, setActiveRadioStation, resetActiveRadioStation } from '../../redux/features/playerSlice';
 import Controls from './Controls';
 import Player from './Player';
 import VolumeBar from './VolumeBar';
@@ -22,8 +22,10 @@ const MusicPlayer = ({ streamUrl }) => {
     }
   };
   useEffect(() => {
+    dispatch(resetActiveRadioStation(''));
     dispatch(setActiveRadioStation(streamUrl));
   }, [id]);
+  console.log(streamUrl);
   return (
     <div className="relative sm:px-12 px-3 w-full flex items-center justify-between flex-col gap-6">
       <div className="flex">

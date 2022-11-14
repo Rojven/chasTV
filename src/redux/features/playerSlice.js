@@ -14,12 +14,17 @@ const playerSlice = createSlice({
       state.activeRadioStation = action.payload;
       state.isActive = true;
     },
+    resetActiveRadioStation: (state, action) => {
+      state.activeRadioStation = action.payload;
+      state.isActive = false;
+      state.isPlaying = false;
+    },
     playPause: (state, action) => {
       state.isPlaying = action.payload;
     },
   },
 });
 
-export const { setActiveRadioStation, playPause } = playerSlice.actions;
+export const { setActiveRadioStation, playPause, resetActiveRadioStation } = playerSlice.actions;
 
 export default playerSlice.reducer;

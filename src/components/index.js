@@ -7,6 +7,9 @@ import ToggleButton from './ToggleButton';
 import Error from './Error';
 import CookiePopup from './CookiePopup';
 import CardBlock from './CardBlock';
+import ScrollToTop from './ScrollToTop';
+import AdsBlock from './AdsBlock';
+import DescrBlock from './DescrBlock';
 
 export {
   CardTemplate,
@@ -18,4 +21,7 @@ export {
   ToggleButton,
   Error,
   CookiePopup,
+  ScrollToTop,
+  AdsBlock,
+  DescrBlock,
 };
