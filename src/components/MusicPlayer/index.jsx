@@ -24,7 +24,6 @@ const MusicPlayer = ({ streamUrl }) => {
   useEffect(() => {
     dispatch(setActiveRadioStation(streamUrl));
   }, [id]);
-  console.log(streamUrl);
   return (
     <div className="relative sm:px-12 px-3 w-full flex items-center justify-between flex-col gap-6">
       <div className="flex">
