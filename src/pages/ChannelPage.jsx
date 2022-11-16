@@ -1,5 +1,5 @@
 import useParamsUpdate from '../hooks/useParamsUpdate';
-import { CardBlock, Error, DescrBlock, VkComments } from '../components';
+import { CardBlock, Error, DescrBlock, VkComments, AdsBlock } from '../components';
 import { channels } from '../assets/constants';
 
 const ChannelPage = () => {
@@ -14,12 +14,17 @@ const ChannelPage = () => {
         <h2 className="font-bold text-xl text-black dark:text-white">{title}</h2>
       </div>
       <div className="flex flex-col">
-        <div className="flex flex-col gap-4 lg:flex-row mt-4 w-full">
-          { streamUrl
-            ? <iframe src={streamUrl} title={`${title}-unique-title`} frameBorder="0" scrolling="no" allowFullScreen="" className="bg-slate-200 w-full rounded-lg max-h-[500px] md:min-h-[500px] min-h-[250px]" key={title} />
-            : (
-              <Error />
-            )}
+        <div className="flex gap-2 flex-col md:flex-row">
+          <div className="flex flex-col gap-4 lg:flex-row mt-4 md:w-9/12 w-full">
+            { streamUrl
+              ? <iframe src={streamUrl} title={`${title}-unique-title`} frameBorder="0" scrolling="no" allowFullScreen="" className="bg-slate-200 w-full rounded-lg max-h-[500px] md:min-h-[400px] min-h-[250px]" key={title} />
+              : (
+                <Error />
+              )}
+          </div>
+          <div className="w-full md:w-3/12 mt-4">
+            <AdsBlock />
+          </div>
         </div>
         <div>
           <h3 className=" mt-4 text-lg font-bold text-black dark:text-white">Сейчас идет: СашаТаня. Сезон 3. Серия 30</h3>

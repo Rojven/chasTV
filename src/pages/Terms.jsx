@@ -3,7 +3,7 @@ const Terms = () => (
     <h2 className="font-bold text-xl text-black dark:text-white my-4">Условия использования</h2>
     <p className="text-sm text-gray-400">Все материалы и встроенные инструменты, в том числе проигрыватели, которые присутствуют на данном сайте, представлены исключительно в ознакомительных целях. Ссылки на видеопотоки берутся только из открытых источников.На сайте Час.ТВ существует возрастное ограничение. Если пользователь не достиг 18-летнего возраста, то ему рекомендуется покинуть данный ресурс.</p>
     <h3 className="font-bold text-medium text-black dark:text-white my-4">Пользовательское соглашение</h3>
-    <ul className=" text-sm text-black dark:text-whitee">
+    <ul className=" text-sm text-black dark:text-white">
       <li className="mb-2">
         <span className="font-bold">1. Общие положения</span>
         <ol className=" mt-2 text-gray-400">

@@ -2,7 +2,7 @@
 const DescrBlock = ({ title, image, descr, descrTitles }) => {
   const { titleOne, titleTwo, titleThree, titleFour, titleFive } = descrTitles;
   return (
-    <div className="mb-8 mt-12 w-full md:w-2/4">
+    <div className="mb-8 mt-12 w-full md:w-3/5">
       <div className="flex gap-3 justify-start items-center">
         <div className="w-8 h-8 grid place-content-center">
           <img src={image} alt={`${title}-icon`} className="w-full" />
