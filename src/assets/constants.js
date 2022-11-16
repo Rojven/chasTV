@@ -1,4 +1,5 @@
 import { IoTvOutline, IoRadioOutline } from 'react-icons/io5';
+
 import rossiya1 from './img/channels/rossiya1.webp';
 import rossiya24 from './img/channels/rossiya24.webp';
 import sts from './img/channels/sts.png';
@@ -12,6 +13,12 @@ import kultura from './img/channels/kultura.webp';
 import planeta from './img/channels/rtrpl.png';
 import che from './img/channels/che.png';
 import tvc from './img/channels/tvc.png';
+
+import radioRossii from './img/radio/radio-rossii.svg';
+import mayak from './img/radio/mayak.svg';
+import vesti from './img/radio/vesti.svg';
+import radioKultura from './img/radio/kultura.svg';
+import yunost from './img/radio/yunost.svg';
 
 export const channels = [
   { titleDisplay: false,
@@ -40,11 +47,11 @@ export const channels = [
 ];
 
 export const radioStations = [
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_radio-rossii.svg', title: 'Россия', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam', descr: { one: 'Новости', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция общего формата, входящая в состав Всероссийской государственной телевизионной и радиовещательной компании.' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_mayak.svg', title: 'Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm', descr: { one: 'Новости, Развлечения', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция, одна из крупнейших и самых узнаваемых радиостанций на территории бывшего СССР. Основана в 1964 году по решению ЦК КПСС для создания «противовеса западным „голосам“».' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_vesti.svg', title: 'Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm', descr: { one: 'Новости', two: 'Новости', three: 'Русский', four: 'Российская федеральная государственная информационная радиостанция. Входит в холдинг ВГТРК. Начало вещания - 5 февраля 2008 года в 06:00 утра по московскому времени.' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_kultura.svg', title: 'Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm', descr: { one: 'Новости', two: 'Развлечения, Образование', three: 'Русский', four: 'российская радиостанция, входит в состав Всероссийской государственной телевизионной и радиовещательной компании (ВГТРК).' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_yunost.svg', title: 'Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost', descr: { one: 'Развлечения', two: 'Россия', three: 'Русский', four: 'Государственная молодёжная радиостанция. Входит в состав Всероссийской государственной телерадиокомпании. До 9 января 2014 года вещала в Москве и на многих региональных частотах в России, а также со спутников в пакетах русскоязычных радиопрограмм. ' } },
+  { titleDisplay: true, image: radioRossii, title: 'Россия', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam', descr: { one: 'Новости', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция общего формата, входящая в состав Всероссийской государственной телевизионной и радиовещательной компании.' } },
+  { titleDisplay: true, image: mayak, title: 'Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm', descr: { one: 'Новости, Развлечения', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция, одна из крупнейших и самых узнаваемых радиостанций на территории бывшего СССР. Основана в 1964 году по решению ЦК КПСС для создания «противовеса западным „голосам“».' } },
+  { titleDisplay: true, image: vesti, title: 'Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm', descr: { one: 'Новости', two: 'Новости', three: 'Русский', four: 'Российская федеральная государственная информационная радиостанция. Входит в холдинг ВГТРК. Начало вещания - 5 февраля 2008 года в 06:00 утра по московскому времени.' } },
+  { titleDisplay: true, image: radioKultura, title: 'Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm', descr: { one: 'Новости', two: 'Развлечения, Образование', three: 'Русский', four: 'российская радиостанция, входит в состав Всероссийской государственной телевизионной и радиовещательной компании (ВГТРК).' } },
+  { titleDisplay: true, image: yunost, title: 'Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost', descr: { one: 'Развлечения', two: 'Россия', three: 'Русский', four: 'Государственная молодёжная радиостанция. Входит в состав Всероссийской государственной телерадиокомпании. До 9 января 2014 года вещала в Москве и на многих региональных частотах в России, а также со спутников в пакетах русскоязычных радиопрограмм. ' } },
 ];
 
 export const headerNavLinks = [
