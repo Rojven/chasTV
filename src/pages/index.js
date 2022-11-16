@@ -1,11 +1,16 @@
+import { lazy } from 'react';
+
 import Home from './Home';
 import Channels from './Channels';
 import ChannelPage from './ChannelPage';
 import Radio from './Radio';
-import Terms from './Terms';
-import About from './About';
-import Vacancies from './Vacancies';
 import RadioPage from './RadioPage';
+
+const About = lazy(() => import('./About'));
+const Terms = lazy(() => import('./Terms'));
+const Vacancies = lazy(() => import('./Vacancies'));
+const ContactUs = lazy(() => import('./ContactUs'));
+const NotFoundPage = lazy(() => import('./NotFoundPage'));
 
 export {
   Home,
@@ -16,4 +21,6 @@ export {
   About,
   Vacancies,
   RadioPage,
+  ContactUs,
+  NotFoundPage,
 };

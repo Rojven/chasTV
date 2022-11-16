@@ -40,18 +40,11 @@ export const channels = [
 ];
 
 export const radioStations = [
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_radio-rossii.svg', title: 'Россия', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam', descr: { one: 'Новости', two: 'Россия', three: 'Русский' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_mayak.svg', title: 'Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm', descr: { one: 'Новости, Развлечения', two: 'Россия', three: 'Русский' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_vesti.svg', title: 'Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm', descr: { one: 'Новости', two: 'Россия', three: 'Русский' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_kultura.svg', title: 'Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm', descr: { one: 'Развлечения, Образование', two: 'Россия', three: 'Русский' } },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_yunost.svg', title: 'Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost', descr: { one: 'Развлечения', two: 'Россия', three: 'Русский' } },
-/*   { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/avtoradio.png', title: 'Авторадио', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/business2.png', title: 'Business FM', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/vanya.png', title: 'Радио Ваня', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/dorozhnoe.png', title: 'Дорожное радио', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/jazz.png', title: 'Радио Jazz', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/evropa-plus.png', title: 'Радио Европа Плюс', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' },
-  { titleDisplay: true, image: 'https://radiomap.eu/ru/radio/zvezda.png', title: 'Радио Звезда', streamUrl: 'https://radiomap.eu/ru/play/avtoradio', urlId: '' }, */
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_radio-rossii.svg', title: 'Россия', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/rrzonam', urlId: 'rrzonam', descr: { one: 'Новости', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция общего формата, входящая в состав Всероссийской государственной телевизионной и радиовещательной компании.' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_mayak.svg', title: 'Маяк', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/mayakfm', urlId: 'mayakfm', descr: { one: 'Новости, Развлечения', two: 'Россия', three: 'Русский', four: 'Федеральная государственная радиостанция, одна из крупнейших и самых узнаваемых радиостанций на территории бывшего СССР. Основана в 1964 году по решению ЦК КПСС для создания «противовеса западным „голосам“».' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_vesti.svg', title: 'Вести FM', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/vestifm', urlId: 'vestifm', descr: { one: 'Новости', two: 'Новости', three: 'Русский', four: 'Российская федеральная государственная информационная радиостанция. Входит в холдинг ВГТРК. Начало вещания - 5 февраля 2008 года в 06:00 утра по московскому времени.' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_kultura.svg', title: 'Культура', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/kulturafm', urlId: 'kulturafm', descr: { one: 'Новости', two: 'Развлечения, Образование', three: 'Русский', four: 'российская радиостанция, входит в состав Всероссийской государственной телевизионной и радиовещательной компании (ВГТРК).' } },
+  { titleDisplay: true, image: 'https://radiomap.eu/ru/images/vgtrk_yunost.svg', title: 'Юность', streamUrl: 'https://icecast-vgtrk.cdnvideo.ru/unost', urlId: 'unost', descr: { one: 'Развлечения', two: 'Россия', three: 'Русский', four: 'Государственная молодёжная радиостанция. Входит в состав Всероссийской государственной телерадиокомпании. До 9 января 2014 года вещала в Москве и на многих региональных частотах в России, а также со спутников в пакетах русскоязычных радиопрограмм. ' } },
 ];
 
 export const headerNavLinks = [
@@ -63,4 +56,5 @@ export const footerLinks = [
   { name: 'О проекте', url: '/about' },
   { name: 'Вакансии', url: '/vacancies' },
   { name: 'Соглашение', url: '/terms' },
+  { name: 'Контакты', url: '/contact' },
 ];

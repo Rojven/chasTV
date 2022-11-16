@@ -10,6 +10,8 @@ import CardBlock from './CardBlock';
 import ScrollToTop from './ScrollToTop';
 import AdsBlock from './AdsBlock';
 import DescrBlock from './DescrBlock';
+import VkComments from './VkComments';
+import Loader from './Loader';
 
 export {
   CardTemplate,
@@ -24,4 +26,6 @@ export {
   ScrollToTop,
   AdsBlock,
   DescrBlock,
+  VkComments,
+  Loader,
 };

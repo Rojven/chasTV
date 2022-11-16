@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Navbar, Footer, CookiePopup, ScrollToTop } from './components';
-import { Home, Channels, Radio, ChannelPage, Terms, About, Vacancies, RadioPage } from './pages';
+import { Home, Channels, Radio, ChannelPage, Terms, About, Vacancies, RadioPage, ContactUs, NotFoundPage } from './pages';
 
 const App = () => (
   <div className="relative bg-gradient-to-br bg-gray-100 dark:from-black dark:to-[#121286] min-h-screen">
@@ -17,6 +17,8 @@ const App = () => (
             <Route path="/terms" element={<Terms />} />
             <Route path="/about" element={<About />} />
             <Route path="/vacancies" element={<Vacancies />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </ScrollToTop>
       </div>

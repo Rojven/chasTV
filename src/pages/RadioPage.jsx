@@ -1,5 +1,5 @@
 import useParamsUpdate from '../hooks/useParamsUpdate';
-import { MusicPlayer, Error, CardBlock, AdsBlock, DescrBlock } from '../components';
+import { MusicPlayer, Error, CardBlock, AdsBlock, DescrBlock, VkComments } from '../components';
 import { radioStations } from '../assets/constants';
 
 const RadioPage = () => {
@@ -23,6 +23,11 @@ const RadioPage = () => {
           <AdsBlock />
         </div>
       </div>
+      <CardBlock
+        title="Слушайте также:"
+        mainUrl="radio"
+        cardItems={radioStations}
+      />
       <DescrBlock
         title={title}
         image={image}
@@ -32,13 +37,10 @@ const RadioPage = () => {
           titleTwo: 'Тематика',
           titleThree: 'Страна',
           titleFour: 'Язык',
+          titleFive: 'Описание',
         }}
       />
-      <CardBlock
-        title="Слушайте также:"
-        mainUrl="radio"
-        cardItems={radioStations}
-      />
+      <VkComments elementId="radioPage" pageId="radio" />
     </div>
   );
 };
